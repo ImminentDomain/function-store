@@ -12,6 +12,15 @@
         },
         "fprocess": "figlet",
         "repo_url": "https://github.com/openfaas/faas/tree/master/sample-functions/figlet"
+    },
+    {
+        "title": "Hello Python - so vast a function",
+        "name": "hello-python",
+        "description": "This is Paul's test function",
+        "images": {
+            "x86_64": "paulkarayan/hello-python:latest"
+        },
+        "repo_url": "https://github.com/ImminentDomain/function-store"
     }
     ]
 }
