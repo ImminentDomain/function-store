@@ -20,7 +20,7 @@
         "images": {
             "x86_64": "paulkarayan/hello-python:latest"
         },
-        "repo_url": "https://github.com/ImminentDomain/function-store"
+        "repo_url": "https://github.com/ImminentDomain/function-store/functions/hello-python"
     }
     ]
 }
