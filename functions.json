@@ -14,13 +14,22 @@
         "repo_url": "https://github.com/openfaas/faas/tree/master/sample-functions/figlet"
     },
     {
-        "title": "Hello Python - so vast a function",
+        "title": "Hello Python - basic like pumpkin spice",
         "name": "hello-python",
         "description": "This is Paul's test function",
         "images": {
             "x86_64": "paulkarayan/hello-python:latest"
         },
         "repo_url": "https://github.com/ImminentDomain/function-store/functions/hello-python"
+    },
+    {
+        "title": "Python Secret - demonstrates you can have secrets",
+        "name": "hello-python",
+        "description": "demonstrates you can have secrets",
+        "images": {
+            "x86_64": "paulkarayan/python-secret:latest"
+        },
+        "repo_url": "https://github.com/ImminentDomain/function-store/functions/python-secret"
     }
     ]
 }
