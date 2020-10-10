@@ -1,0 +1,14 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://192.168.64.3:8080
+functions:
+  send-mailgun-email:
+    lang: python
+    handler: ./send-mailgun-email
+    image: paulkarayan/send-mailgun-email:latest
+    secrets:
+      - mailgun-api-key
+      - mailgun-sandbox-url
+      - from-email-address
+
