@@ -23,6 +23,15 @@
         "repo_url": "https://github.com/ImminentDomain/function-store/functions/hello-python"
     },
     {
+        "title": "Send an Email with Mailgun",
+        "name": "send-mailgun-email",
+        "description": "Send an Email with Mailgun",
+        "images": {
+            "x86_64": "paulkarayan/send-mailgun-email:latest"
+        },
+        "repo_url": "https://github.com/ImminentDomain/function-store/functions/send-mailgun-email"
+    },
+    {
         "title": "Python Secret - demonstrates you can have secrets",
         "name": "hello-python",
         "description": "demonstrates you can have secrets",
