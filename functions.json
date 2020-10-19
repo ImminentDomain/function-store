@@ -2,43 +2,55 @@
 {
     "version": "0.2.0",
     "functions": [
-    {
-        "title": "Figlet",
-        "name": "figlet",
-        "description": "Generate ASCII logos with the figlet CLI",
-        "images": {
-            "armhf": "functions/figlet:latest-armhf",
-            "x86_64": "functions/figlet:0.13.0"
+        {
+            "title": "Figlet",
+            "name": "figlet",
+            "description": "Generate ASCII logos with the figlet CLI",
+            "images": {
+                "armhf": "functions/figlet:latest-armhf",
+                "x86_64": "functions/figlet:0.13.0"
+            },
+            "fprocess": "figlet",
+            "repo_url": "https://github.com/openfaas/faas/tree/master/sample-functions/figlet",
+            "tags": [
+              "cli", "golang", "ascii"
+            ]
         },
-        "fprocess": "figlet",
-        "repo_url": "https://github.com/openfaas/faas/tree/master/sample-functions/figlet"
-    },
-    {
-        "title": "Hello Python - basic like pumpkin spice",
-        "name": "hello-python",
-        "description": "This is Paul's test function",
-        "images": {
-            "x86_64": "paulkarayan/hello-python:latest"
+        {
+            "title": "Hello Python - basic like pumpkin spice",
+            "name": "hello-python",
+            "description": "This is Paul's test function",
+            "images": {
+                "x86_64": "paulkarayan/hello-python:latest"
+            },
+            "repo_url": "https://github.com/ImminentDomain/function-store/functions/hello-python",
+            "tags": [
+              "python", "basic"
+            ]
         },
-        "repo_url": "https://github.com/ImminentDomain/function-store/functions/hello-python"
-    },
-    {
-        "title": "Send an Email with Mailgun",
-        "name": "send-mailgun-email",
-        "description": "Send an Email with Mailgun",
-        "images": {
-            "x86_64": "paulkarayan/send-mailgun-email:latest"
+        {
+            "title": "Send an Email with Mailgun",
+            "name": "send-mailgun-email",
+            "description": "Send an Email with Mailgun",
+            "images": {
+                "x86_64": "paulkarayan/send-mailgun-email:latest"
+            },
+            "repo_url": "https://github.com/ImminentDomain/function-store/functions/send-mailgun-email",
+            "tags": [
+              "python", "email", "mailgun"
+            ]
         },
-        "repo_url": "https://github.com/ImminentDomain/function-store/functions/send-mailgun-email"
-    },
-    {
-        "title": "Python Secret - demonstrates you can have secrets",
-        "name": "hello-python",
-        "description": "demonstrates you can have secrets",
-        "images": {
-            "x86_64": "paulkarayan/python-secret:latest"
-        },
-        "repo_url": "https://github.com/ImminentDomain/function-store/functions/python-secret"
-    }
-    ]
+        {
+            "title": "Python Secret - demonstrates you can have secrets",
+            "name": "hello-python",
+            "description": "demonstrates you can have secrets",
+            "images": {
+                "x86_64": "paulkarayan/python-secret:latest"
+            },
+            "repo_url": "https://github.com/ImminentDomain/function-store/functions/python-secret",
+            "tags": [
+              "python", "basic", "secrets", "credentials"
+            ]
+        }
+      ]
 }
